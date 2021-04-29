@@ -9,17 +9,23 @@
     "start": "webpack serve"
   },
   "dependencies": {
+    "@emotion/react": "^11.4.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.13.0",
+    "@emotion/babel-plugin": "^11.3.0",
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
+    "@types/react-helmet": "^6.1.1",
+    "@types/react-router-dom": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
     "babel-loader": "^8.2.2",
